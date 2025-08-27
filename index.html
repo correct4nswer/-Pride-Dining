@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pride Dining • Hofstra University</title>
+  <meta name="description" content="Pride Dining — Hofstra University dining hours, tags, and on-campus directions." />
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Pride Dining</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <div class="legend">
+        <span class="dot open"></span> Open
+        <span class="dot closed"></span> Closed
+      </div>
+      <div class="hint">Tags: Breakfast • Lunch • Dinner • Dessert • Grab &amp; Go • Vegan • Vegetarian • Halal</div>
+    </section>
+
+    <section id="open-section">
+      <h2 class="section-title">Open Now</h2>
+      <div id="open-cards" class="cards"></div>
+    </section>
+
+    <section id="closed-section">
+      <h2 class="section-title">Closed</h2>
+      <div id="closed-cards" class="cards"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made for Hofstra University students. Data updates daily from Hofstra Dining.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

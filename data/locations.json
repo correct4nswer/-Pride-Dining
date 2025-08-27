@@ -1,0 +1,537 @@
+[
+  {
+    "name": "Student Center Caf\u00e9",
+    "address": "Mack Student Center",
+    "lat": 40.7138,
+    "lng": -73.6019,
+    "hours": {
+      "sun": {
+        "open": "8:00 AM",
+        "close": "10:00 PM"
+      },
+      "mon": {
+        "open": "8:00 AM",
+        "close": "10:00 PM"
+      },
+      "tue": {
+        "open": "8:00 AM",
+        "close": "10:00 PM"
+      },
+      "wed": {
+        "open": "8:00 AM",
+        "close": "10:00 PM"
+      },
+      "thu": {
+        "open": "8:00 AM",
+        "close": "10:00 PM"
+      },
+      "fri": {
+        "open": "8:00 AM",
+        "close": "10:00 PM"
+      },
+      "sat": {
+        "open": "8:00 AM",
+        "close": "10:00 PM"
+      }
+    },
+    "tags": [
+      "Breakfast",
+      "Lunch",
+      "Dinner",
+      "Grab & Go"
+    ]
+  },
+  {
+    "name": "Student Center Dining",
+    "address": "Mack Student Center",
+    "lat": 40.7138,
+    "lng": -73.6019,
+    "hours": {
+      "sun": {
+        "open": "11:00 AM",
+        "close": "8:00 PM"
+      },
+      "mon": {
+        "open": "11:00 AM",
+        "close": "8:00 PM"
+      },
+      "tue": {
+        "open": "11:00 AM",
+        "close": "8:00 PM"
+      },
+      "wed": {
+        "open": "11:00 AM",
+        "close": "8:00 PM"
+      },
+      "thu": {
+        "open": "11:00 AM",
+        "close": "8:00 PM"
+      },
+      "fri": {
+        "open": "11:00 AM",
+        "close": "8:00 PM"
+      },
+      "sat": {
+        "open": "11:00 AM",
+        "close": "8:00 PM"
+      }
+    },
+    "tags": [
+      "Lunch",
+      "Dinner"
+    ]
+  },
+  {
+    "name": "Au Bon Pain",
+    "address": "North Campus",
+    "lat": 40.7146,
+    "lng": -73.5999,
+    "hours": {
+      "sun": {
+        "open": "7:00 AM",
+        "close": "7:00 PM"
+      },
+      "mon": {
+        "open": "7:00 AM",
+        "close": "7:00 PM"
+      },
+      "tue": {
+        "open": "7:00 AM",
+        "close": "7:00 PM"
+      },
+      "wed": {
+        "open": "7:00 AM",
+        "close": "7:00 PM"
+      },
+      "thu": {
+        "open": "7:00 AM",
+        "close": "7:00 PM"
+      },
+      "fri": {
+        "open": "7:00 AM",
+        "close": "7:00 PM"
+      },
+      "sat": {
+        "open": "7:00 AM",
+        "close": "7:00 PM"
+      }
+    },
+    "tags": [
+      "Breakfast",
+      "Lunch",
+      "Grab & Go",
+      "Vegetarian"
+    ]
+  },
+  {
+    "name": "Einstein Bros. Bagels",
+    "address": "Student Center",
+    "lat": 40.7136,
+    "lng": -73.6017,
+    "hours": {
+      "sun": {
+        "open": "7:00 AM",
+        "close": "4:00 PM"
+      },
+      "mon": {
+        "open": "7:00 AM",
+        "close": "4:00 PM"
+      },
+      "tue": {
+        "open": "7:00 AM",
+        "close": "4:00 PM"
+      },
+      "wed": {
+        "open": "7:00 AM",
+        "close": "4:00 PM"
+      },
+      "thu": {
+        "open": "7:00 AM",
+        "close": "4:00 PM"
+      },
+      "fri": {
+        "open": "7:00 AM",
+        "close": "4:00 PM"
+      },
+      "sat": {
+        "open": "7:00 AM",
+        "close": "4:00 PM"
+      }
+    },
+    "tags": [
+      "Breakfast",
+      "Lunch",
+      "Grab & Go",
+      "Vegetarian"
+    ]
+  },
+  {
+    "name": "Starbucks (Axinn Library)",
+    "address": "Axinn Library",
+    "lat": 40.713,
+    "lng": -73.6026,
+    "hours": {
+      "sun": {
+        "open": "7:30 AM",
+        "close": "9:00 PM"
+      },
+      "mon": {
+        "open": "7:30 AM",
+        "close": "9:00 PM"
+      },
+      "tue": {
+        "open": "7:30 AM",
+        "close": "9:00 PM"
+      },
+      "wed": {
+        "open": "7:30 AM",
+        "close": "9:00 PM"
+      },
+      "thu": {
+        "open": "7:30 AM",
+        "close": "9:00 PM"
+      },
+      "fri": {
+        "open": "7:30 AM",
+        "close": "9:00 PM"
+      },
+      "sat": {
+        "open": "7:30 AM",
+        "close": "9:00 PM"
+      }
+    },
+    "tags": [
+      "Breakfast",
+      "Lunch",
+      "Grab & Go",
+      "Vegetarian"
+    ]
+  },
+  {
+    "name": "Axinn Caf\u00e9",
+    "address": "Axinn Library",
+    "lat": 40.7129,
+    "lng": -73.6027,
+    "hours": {
+      "sun": {
+        "open": "8:00 AM",
+        "close": "6:00 PM"
+      },
+      "mon": {
+        "open": "8:00 AM",
+        "close": "6:00 PM"
+      },
+      "tue": {
+        "open": "8:00 AM",
+        "close": "6:00 PM"
+      },
+      "wed": {
+        "open": "8:00 AM",
+        "close": "6:00 PM"
+      },
+      "thu": {
+        "open": "8:00 AM",
+        "close": "6:00 PM"
+      },
+      "fri": {
+        "open": "8:00 AM",
+        "close": "6:00 PM"
+      },
+      "sat": {
+        "open": "8:00 AM",
+        "close": "6:00 PM"
+      }
+    },
+    "tags": [
+      "Breakfast",
+      "Lunch",
+      "Grab & Go"
+    ]
+  },
+  {
+    "name": "Bits & Bytes",
+    "address": "Adams Playhouse Area",
+    "lat": 40.7151,
+    "lng": -73.6039,
+    "hours": {
+      "sun": {
+        "open": "10:00 AM",
+        "close": "8:00 PM"
+      },
+      "mon": {
+        "open": "10:00 AM",
+        "close": "8:00 PM"
+      },
+      "tue": {
+        "open": "10:00 AM",
+        "close": "8:00 PM"
+      },
+      "wed": {
+        "open": "10:00 AM",
+        "close": "8:00 PM"
+      },
+      "thu": {
+        "open": "10:00 AM",
+        "close": "8:00 PM"
+      },
+      "fri": {
+        "open": "10:00 AM",
+        "close": "8:00 PM"
+      },
+      "sat": {
+        "open": "10:00 AM",
+        "close": "8:00 PM"
+      }
+    },
+    "tags": [
+      "Lunch",
+      "Dinner"
+    ]
+  },
+  {
+    "name": "Dutch Treats",
+    "address": "Netherlands Complex",
+    "lat": 40.7148,
+    "lng": -73.601,
+    "hours": {
+      "sun": {
+        "open": "10:00 AM",
+        "close": "12:00 AM"
+      },
+      "mon": {
+        "open": "10:00 AM",
+        "close": "12:00 AM"
+      },
+      "tue": {
+        "open": "10:00 AM",
+        "close": "12:00 AM"
+      },
+      "wed": {
+        "open": "10:00 AM",
+        "close": "12:00 AM"
+      },
+      "thu": {
+        "open": "10:00 AM",
+        "close": "12:00 AM"
+      },
+      "fri": {
+        "open": "10:00 AM",
+        "close": "12:00 AM"
+      },
+      "sat": {
+        "open": "10:00 AM",
+        "close": "12:00 AM"
+      }
+    },
+    "tags": [
+      "Lunch",
+      "Dinner",
+      "Grab & Go"
+    ]
+  },
+  {
+    "name": "The Hofstra C-Store",
+    "address": "Student Center",
+    "lat": 40.7149,
+    "lng": -73.6012,
+    "hours": {
+      "sun": {
+        "open": "9:00 AM",
+        "close": "11:00 PM"
+      },
+      "mon": {
+        "open": "9:00 AM",
+        "close": "11:00 PM"
+      },
+      "tue": {
+        "open": "9:00 AM",
+        "close": "11:00 PM"
+      },
+      "wed": {
+        "open": "9:00 AM",
+        "close": "11:00 PM"
+      },
+      "thu": {
+        "open": "9:00 AM",
+        "close": "11:00 PM"
+      },
+      "fri": {
+        "open": "9:00 AM",
+        "close": "11:00 PM"
+      },
+      "sat": {
+        "open": "9:00 AM",
+        "close": "11:00 PM"
+      }
+    },
+    "tags": [
+      "Grab & Go",
+      "Dessert"
+    ]
+  },
+  {
+    "name": "Hofstra USA",
+    "address": "Hofstra USA Building",
+    "lat": 40.7139,
+    "lng": -73.6032,
+    "hours": {
+      "sun": {
+        "open": "11:00 AM",
+        "close": "11:00 PM"
+      },
+      "mon": {
+        "open": "11:00 AM",
+        "close": "11:00 PM"
+      },
+      "tue": {
+        "open": "11:00 AM",
+        "close": "11:00 PM"
+      },
+      "wed": {
+        "open": "11:00 AM",
+        "close": "11:00 PM"
+      },
+      "thu": {
+        "open": "11:00 AM",
+        "close": "11:00 PM"
+      },
+      "fri": {
+        "open": "11:00 AM",
+        "close": "11:00 PM"
+      },
+      "sat": {
+        "open": "11:00 AM",
+        "close": "11:00 PM"
+      }
+    },
+    "tags": [
+      "Lunch",
+      "Dinner"
+    ]
+  },
+  {
+    "name": "Freshens",
+    "address": "Fitness Center Area",
+    "lat": 40.7142,
+    "lng": -73.6005,
+    "hours": {
+      "sun": {
+        "open": "10:00 AM",
+        "close": "6:00 PM"
+      },
+      "mon": {
+        "open": "10:00 AM",
+        "close": "6:00 PM"
+      },
+      "tue": {
+        "open": "10:00 AM",
+        "close": "6:00 PM"
+      },
+      "wed": {
+        "open": "10:00 AM",
+        "close": "6:00 PM"
+      },
+      "thu": {
+        "open": "10:00 AM",
+        "close": "6:00 PM"
+      },
+      "fri": {
+        "open": "10:00 AM",
+        "close": "6:00 PM"
+      },
+      "sat": {
+        "open": "10:00 AM",
+        "close": "6:00 PM"
+      }
+    },
+    "tags": [
+      "Lunch",
+      "Dessert",
+      "Vegetarian",
+      "Vegan"
+    ]
+  },
+  {
+    "name": "Dunkin'",
+    "address": "Campus",
+    "lat": 40.7144,
+    "lng": -73.6021,
+    "hours": {
+      "sun": {
+        "open": "6:00 AM",
+        "close": "8:00 PM"
+      },
+      "mon": {
+        "open": "6:00 AM",
+        "close": "8:00 PM"
+      },
+      "tue": {
+        "open": "6:00 AM",
+        "close": "8:00 PM"
+      },
+      "wed": {
+        "open": "6:00 AM",
+        "close": "8:00 PM"
+      },
+      "thu": {
+        "open": "6:00 AM",
+        "close": "8:00 PM"
+      },
+      "fri": {
+        "open": "6:00 AM",
+        "close": "8:00 PM"
+      },
+      "sat": {
+        "open": "6:00 AM",
+        "close": "8:00 PM"
+      }
+    },
+    "tags": [
+      "Breakfast",
+      "Grab & Go",
+      "Vegetarian"
+    ]
+  },
+  {
+    "name": "Hofstra Northwell School of Nursing Caf\u00e9",
+    "address": "School of Nursing",
+    "lat": 40.717,
+    "lng": -73.6007,
+    "hours": {
+      "sun": {
+        "open": "8:00 AM",
+        "close": "4:00 PM"
+      },
+      "mon": {
+        "open": "8:00 AM",
+        "close": "4:00 PM"
+      },
+      "tue": {
+        "open": "8:00 AM",
+        "close": "4:00 PM"
+      },
+      "wed": {
+        "open": "8:00 AM",
+        "close": "4:00 PM"
+      },
+      "thu": {
+        "open": "8:00 AM",
+        "close": "4:00 PM"
+      },
+      "fri": {
+        "open": "8:00 AM",
+        "close": "4:00 PM"
+      },
+      "sat": {
+        "open": "8:00 AM",
+        "close": "4:00 PM"
+      }
+    },
+    "tags": [
+      "Breakfast",
+      "Lunch",
+      "Grab & Go",
+      "Vegetarian"
+    ]
+  }
+]

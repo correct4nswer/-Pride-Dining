@@ -1,0 +1,127 @@
+/* Pride Dining — Dark theme using Hofstra colors with modern header */
+:root{
+  --hofstra-blue:#003DA5;
+  --hofstra-blue-2:#0A3AA0;
+  --hofstra-gold:#FDB927;
+  --bg:#0b1420;
+  --card:#121a26;
+  --text:#e6edf3;
+  --muted:#9fb0c3;
+  --open:#22c55e;
+  --closed:#ef4444;
+  --tag-blue:#3B82F6;
+  --tag-green:#22C55E;
+  --ring:rgba(253,185,39,.25);
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background:radial-gradient(1200px 800px at 10% -10%, rgba(0,61,165,.25), transparent 60%),
+             radial-gradient(1000px 700px at 110% 10%, rgba(253,185,39,.12), transparent 50%),
+             var(--bg);
+  color:var(--text);
+}
+
+/* Modern header */
+.site-header{
+  position:sticky; top:0; z-index:20;
+  background:linear-gradient(135deg, var(--hofstra-blue), var(--hofstra-blue-2));
+  border-bottom:1px solid rgba(255,255,255,.08);
+  box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+.site-header .wrap{
+  max-width:980px; margin:0 auto; padding:18px 16px 14px;
+}
+.site-header h1{
+  margin:0; text-align:left; letter-spacing:.2px;
+  color:#fff; font-weight:800; font-size: clamp(26px, 3vw, 40px);
+}
+.site-header::after{
+  content:""; display:block; height:3px; width:100%;
+  background:linear-gradient(90deg, transparent 0 10%, var(--hofstra-gold) 10% 90%, transparent 90% 100%);
+}
+
+.container{max-width:980px; margin:28px auto 80px; padding:0 16px}
+
+.controls{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:16px; flex-wrap:wrap; margin-bottom:14px;
+}
+.legend{display:flex; align-items:center; gap:14px; color:var(--muted); font-size:14px}
+.legend .dot{width:12px; height:12px; border-radius:999px; display:inline-block}
+.legend .dot.open{background:var(--open)}
+.legend .dot.closed{background:var(--closed)}
+.hint{color:var(--muted); font-size:12px}
+
+.section-title{
+  margin:16px 0 8px; color:#fff; font-size:18px; font-weight:800; letter-spacing:.25px
+}
+
+.cards{display:flex; flex-direction:column; gap:16px}
+
+.card{
+  background:var(--card);
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:18px;
+  padding:18px 18px;
+  display:grid;
+  grid-template-columns: 1fr auto;
+  gap:10px 16px;
+  box-shadow:0 15px 30px rgba(0,0,0,.15);
+  transition: box-shadow .2s ease, border-color .2s ease;
+}
+.card.open{
+  border-color: rgba(34,197,94,.35);
+  box-shadow: 0 16px 36px rgba(34,197,94,.12), inset 0 0 0 1px rgba(34,197,94,.25);
+}
+
+.card .name{
+  font-size:22px; font-weight:800; color:#fff;
+  display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+}
+.badge{
+  font-size:12px; font-weight:700;
+  padding:4px 8px; border-radius:999px; line-height:1;
+  border:1px solid transparent;
+}
+.badge.open{color:#062; background:rgba(34,197,94,.18); border-color:rgba(34,197,94,.35)}
+.badge.closed{color:#600; background:rgba(239,68,68,.18); border-color:rgba(239,68,68,.35)}
+
+.meta{color:var(--muted); font-size:14px}
+.hours{color:#d8dee9; font-weight:600; font-size:15px}
+
+.tags{display:flex; flex-wrap:wrap; gap:8px}
+.tag{
+  font-size:12px; padding:6px 10px; border-radius:999px;
+  border:1px solid rgba(253,185,39,.45);
+  background:rgba(253,185,39,.08);
+  color:#fbe3a1; font-weight:700; letter-spacing:.2px;
+}
+.tag.diet{ border-color: rgba(34,197,94,.45); background:rgba(34,197,94,.10); color:#c8f5d7}
+.tag.halal{ border-color: rgba(59,130,246,.45); background:rgba(59,130,246,.10); color:#cfe4ff}
+
+.btn{
+  justify-self:end; align-self:center;
+  background:transparent; color:var(--hofstra-gold);
+  border:1.5px solid var(--hofstra-gold);
+  border-radius:12px; padding:10px 14px; font-weight:800;
+  text-decoration:none; box-shadow:0 0 0 0 var(--ring);
+  transition:.2s transform, .2s box-shadow, .2s background;
+}
+.btn:hover{ transform: translateY(-1px); background: rgba(253,185,39,.08);
+  box-shadow:0 0 0 6px var(--ring);
+}
+
+.site-footer{
+  color:var(--muted); text-align:center; padding:26px 16px;
+  border-top:1px solid rgba(255,255,255,.06)
+}
+
+/* Responsive tweak */
+@media (max-width:640px){
+  .card{grid-template-columns: 1fr}
+  .btn{justify-self:start}
+}
